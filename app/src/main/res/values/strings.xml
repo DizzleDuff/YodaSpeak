@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">YodaSpeak</string>
+    <string name="description">Enter a sentence and Yoda Speak will translate your sentence to how Yoda would say it!</string>
+    <string name="yoda1">Press me, one should!</string>
+    <string name="title_activity_receive">ReceiveActivity</string>
+    <string name="yoda2.1">To try again,</string>
+    <string name="yoda2.2">press me. Yesssss</string>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="ser210.quinnipiac.edu.yodaspeak.ResultActivity"
+    >
+
+    <TextView
+        android:id="@+id/messageReceive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="100dp"
+        android:gravity="center"
+        android:text="blank"
+        android:textSize="15dp"/>
+
+    <ImageButton
+        android:id="@+id/yodaButton1"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_below="@+id/messageReceive"
+        android:layout_marginRight="51dp"
+        android:layout_marginTop="150dp"
+        android:background="@mipmap/yoda"
+        android:onClick="onGoBack"/>
+
+    <ImageView
+        android:id="@+id/bubble1"
+        android:layout_width="180dp"
+        android:layout_height="120dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/messageReceive"
+        android:layout_marginTop="60dp"
+        android:background="@mipmap/bubble" />
+
+    <TextView
+        android:id="@+id/speak2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/messageReceive"
+        android:layout_marginTop="85dp"
+        android:layout_marginLeft="247dp"
+        android:text="@string/yoda2.1" />
+
+    <TextView
+        android:id="@+id/speak3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/messageReceive"
+        android:layout_marginTop="105dp"
+        android:layout_marginLeft="230dp"
+        android:text="@string/yoda2.2" />
+
+</RelativeLayout>
