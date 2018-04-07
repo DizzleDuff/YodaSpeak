@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_share"
+        android:title="Share"
+        android:orderInCategory="1"
+        app:showAsAction="always"
+        android:actionProviderClass="android.widget.ShareActionProvider" />
+
+    <item
+        android:id="@+id/addFavorite"
+        android:title="@string/action_favorite"
+        android:orderInCategory="2"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/ic_favorite_black_48dp" />
+
+    <item
+        android:id="@+id/showFavorite"
+        android:title="Show Favorites"
+        android:orderInCategory="3"
+        android:showAsAction="ifRoom" />
+
+    <!-- Settings, should always be in the overflow -->
+    <item
+        android:id="@+id/action_settings"
+        app:showAsAction="never"
+        android:title="@string/action_settings" />
+
+
+</menu>

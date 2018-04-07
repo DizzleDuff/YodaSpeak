@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/settings"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ser210.quinnipiac.edu.yodaspeak.SettingsActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:text="@string/background_selection"
+        android:textSize="28sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/buttonimage1"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:onClick="OnButtonClick" />
+
+        <ImageButton
+            android:id="@+id/buttonimage2"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:onClick="OnButtonClick" />
+
+        <ImageButton
+            android:id="@+id/buttonimage3"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:onClick="OnButtonClick" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="125dp"
+        android:text="@string/font_selection"
+        android:textSize="28sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/fontButton1"
+            android:layout_width="120dp"
+
+            android:layout_height="120dp"
+            android:onClick="OnButtonClick"
+            android:text="@string/sampletext" />
+
+        <Button
+            android:id="@+id/fontButton2"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:fontFamily="serif-monospace"
+            android:onClick="OnButtonClick"
+            android:text="@string/sampletext" />
+
+        <Button
+            android:id="@+id/fontButton3"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:fontFamily="serif"
+            android:onClick="OnButtonClick"
+            android:text="@string/sampletext" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

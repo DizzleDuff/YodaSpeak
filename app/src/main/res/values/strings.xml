@@ -5,4 +5,11 @@
     <string name="title_activity_receive">ReceiveActivity</string>
     <string name="yoda2.1">To try again,</string>
     <string name="yoda2.2">press me. Yesssss</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_favorite">Favorite</string>
+    <string name="favorites">Favorites</string>
+    <string name="delete">Delete</string>
+    <string name="font_selection">Font Selection</string>
+    <string name="sampletext">Sample Text</string>
+    <string name="background_selection">Background Selection</string>
 </resources>

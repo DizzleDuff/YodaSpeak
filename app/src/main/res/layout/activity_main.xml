@@ -1,66 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="16dp"
-    android:paddingLeft="16dp"
-    android:paddingRight="16dp"
-    android:paddingTop="16dp"
-    tools:context="ser210.quinnipiac.edu.yodaspeak.MainActivity">
-
-    <TextView
-        android:id="@+id/description"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:layout_marginLeft="10dp"
-        android:gravity="center"
-        android:text="@string/description"
-        android:textSize="15dp"/>
-
-    <EditText
-        android:id="@+id/enterText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/description"
-        android:layout_marginLeft="65dp"
-        android:layout_marginTop="20dp"
-        android:ems="10"
-        android:hint="Enter Text" />
-
-    <ImageButton
-        android:id="@+id/yodaButton1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/enterText"
-        android:layout_alignRight="@+id/enterText"
-        android:layout_below="@+id/enterText"
-        android:layout_marginEnd="51dp"
-        android:layout_marginRight="51dp"
-        android:layout_marginTop="92dp"
-        android:background="@mipmap/yoda"
-        android:onClick="onMessageSend"/>
-
-    <ImageView
-        android:id="@+id/bubble1"
-        android:layout_width="180dp"
-        android:layout_height="120dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_below="@+id/enterText"
-        android:background="@mipmap/bubble" />
-
-    <TextView
-        android:id="@+id/speak1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_below="@+id/enterText"
-        android:layout_marginEnd="13dp"
-        android:layout_marginRight="13dp"
-        android:layout_marginTop="42dp"
-        android:text="@string/yoda1" />
-
-</RelativeLayout>
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:id="@+id/mainActivity">
+    
+</FrameLayout>
